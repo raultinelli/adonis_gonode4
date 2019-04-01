@@ -19,3 +19,8 @@ Route.post('sessions', 'SessionController.store')
  */
 Route.post('passwords', 'ForgotPasswordController.store')
 Route.put('password', 'ForgotPasswordController.update')
+
+/**
+ * Rotas de Arquivos
+ */
+Route.post('files', 'FileController.store')
