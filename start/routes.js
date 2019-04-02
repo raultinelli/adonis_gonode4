@@ -23,4 +23,5 @@ Route.put('password', 'ForgotPasswordController.update')
 /**
  * Rotas de Arquivos
  */
+Route.get('files/:id', 'FileController.show')
 Route.post('files', 'FileController.store')
