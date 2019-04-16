@@ -6,7 +6,7 @@ const Route = use('Route')
  * Rotas de Usuários
  */
 
-Route.post('users', 'UserController.store')
+Route.post('users', 'UserController.store').validator('User')
 
 /**
  * Rotas de sssão de usuários
